@@ -1,0 +1,159 @@
+    .wrapper {
+        background-image: url("../image/fon_10.jpg");
+        min-width: 1920px;
+        height: 660px;
+    }
+    
+    .container {
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+    
+    .header {
+        height: 100px;
+        border: 1px solid #98939321;
+        display: flex;
+    }
+    
+    .header__container {
+        max-width: 1220px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+    
+    .header__logo {
+        flex: 0 1 25%;
+        align-items: center;
+        height: 100px;
+        border: 1px solid #98939321;
+        display: flex;
+    }
+    
+    .header__nav {
+        flex: 0 1 75%;
+    }
+    
+    .nav__item {
+        font-family: 'MuseoSansCyrl100';
+        font-size: 18px;
+        line-height: 22px;
+        color: #ffffff;
+        margin-left: 38px;
+    }
+    
+    .nav__item:hover {
+        text-decoration: none;
+        border-bottom: 1px solid #98939321;
+        padding-bottom: 8px;
+    }
+    
+    .main__title {
+        background: -webkit-linear-gradient(-90.0deg, #ff3f04 0%, #ffffff 90%, #ffffff 100%);
+        font-family: 'MuseoSansCyrl100';
+        line-height: 1.2;
+        font-size: 58px;
+        font-weight: 700;
+        text-transform: uppercase;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .main__subtitle {
+        font-family: 'MuseoSansCyrl100';
+        font-size: 25px;
+        font-weight: 300;
+        text-transform: none;
+        background: -webkit-linear-gradient(-90.0deg, #ff3f04 0%, #ffffff 90%, #ffffff 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .main__link_active {
+        margin-top: 65px;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 100;
+        color: #ffffff;
+        font-family: 'MuseoSansCyrl100';
+        width: 180px;
+        height: 35px;
+        border-style: solid;
+        border-width: 1px;
+        border-image-source: linear-gradient(189.0deg, #263e66 20%, #09213d 40%, #111f2d 61%, #23599c 79%);
+        border-image-slice: 1;
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        background-color: #010c165b;
+        text-align: center;
+        vertical-align: center;
+        justify-content: center;
+    }
+    
+    .main {
+        margin-top: 50px;
+        display: flex;
+        width: 1170px;
+    }
+    
+    .main__left {
+        flex: 0 1 50%;
+        margin-right: 16px;
+    }
+    
+    .main__right {
+        flex: 0 1 50%;
+        width: 330px;
+    }
+    
+    .main__image {
+        position: relative;
+        left: 180px;
+        width: 406px;
+        height: 57px;
+    }
+    
+    .main__info {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        vertical-align: center;
+    }
+    
+    .panel__info {
+        flex: 0 1 50%;
+    }
+    
+    .panel__item {
+        box-sizing: border-box;
+        margin-left: 30px;
+        margin-top: 30px;
+        width: 170px;
+        height: 130px;
+        background-color: #ffffff04;
+    }
+    
+    .panel__title {
+        font-family: 'MuseoSansCyrl100';
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 100;
+        color: #ffffff;
+    }
+    
+    .panel__number {
+        font-size: 60px;
+        font-weight: 700;
+        color: #ffffff;
+        font-family: 'MuseoSansCyrl100';
+        line-height: 1.2;
+    }
+    
+    .panel__item:hover {
+        margin-left: 30px;
+        margin-top: 30px;
+        width: 170px;
+        height: 130px;
+        background-color: #ffffff0c;
+        border: 1px solid #9893931e;
+    }
