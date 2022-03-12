@@ -1,3 +1,8 @@
+    body {
+        font-family: 'MuseoSansCyrl100';
+        margin: 0 0;
+    }
+    
     .wrapper {
         background-image: url("../image/fon_10.jpg");
         min-width: 1920px;
@@ -35,7 +40,6 @@
     }
     
     .nav__item {
-        font-family: 'MuseoSansCyrl100';
         font-size: 18px;
         line-height: 22px;
         color: #ffffff;
@@ -50,7 +54,6 @@
     
     .main__title {
         background: -webkit-linear-gradient(-90.0deg, #ff3f04 0%, #ffffff 90%, #ffffff 100%);
-        font-family: 'MuseoSansCyrl100';
         line-height: 1.2;
         font-size: 58px;
         font-weight: 700;
@@ -60,7 +63,6 @@
     }
     
     .main__subtitle {
-        font-family: 'MuseoSansCyrl100';
         font-size: 25px;
         font-weight: 300;
         text-transform: none;
@@ -75,7 +77,6 @@
         line-height: 1.2;
         font-weight: 100;
         color: #ffffff;
-        font-family: 'MuseoSansCyrl100';
         width: 180px;
         height: 35px;
         border-style: solid;
@@ -134,7 +135,6 @@
     }
     
     .panel__title {
-        font-family: 'MuseoSansCyrl100';
         font-size: 16px;
         line-height: 1.2;
         font-weight: 100;
@@ -145,7 +145,6 @@
         font-size: 60px;
         font-weight: 700;
         color: #ffffff;
-        font-family: 'MuseoSansCyrl100';
         line-height: 1.2;
     }
     
